@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaiWay</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!--
+    <style>
+        :root {
+            --primary-color: #ffffff;
+            --secondary-color: #4CAF50;
+            --text-color: #333333;
+            --light-gray: #f5f5f5;
+        }
+        
+        *
+        
+        body {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        header {
+            padding: 2rem 1rem;
+            text-align: center;
+            background-color: var(--primary-color);
+        }
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            color: var(--text-color);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+        
+        .hero {
+            padding: 3rem 1rem;
+            text-align: center;
+            background-color: var(--light-gray);
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--secondary-color);
+        }
+        
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s;
+            margin: 1rem 0;
+        }
+        
+        
+    </style>-->
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">MaiWay</a>
+            <div class="navigation-all">
+                <nav class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="#services">How It Works</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="#features">How It Works</a>
+        <a href="#contact">Contact</a>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="left">
+                <h1>Customize <span>Local Services</span> to Fit Your Life</h1>
+                <p>
+                    Personalize any local service to match your lifestyle or health needs and schedule a date that works best for you.
+                </p>
+                <a href="https://forms.gle/tSJkebzqT6khdcTQA" target="_blank">
+                    <button class="cta-button">Get Started</button>
+                </a>
+            </div>
+            <div class="image">
+                <img src="images/hero01.png" alt="">
+            </div>
+        </div>
+        
+    </section>
+<!--    
+    <section class="features" id="features">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="0 -960 960 960" width="60px" fill="#28a745"><path d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm263-224 37-39-37-37-38 38 38 38Z"/></svg>
+                    </div>
+                    <h3>Customize</h3>
+                    <p>Tell us about your lifestyle, dietary preferences, health needs, and schedule requirements.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="0 -960 960 960" width="60px" fill="#28a745"><path d="M341-67q-48 0-85-28.5T204-169q-16 26-39 40.5T110-114q-47 0-78-33T1-225q0-49 30.5-77.5T109-332q-18-20-28-46.5T71-432q0-38 19.5-71t55.5-53q5 13 12.5 28t15.5 26q-20 13-31.5 32T131-430q0 60 48.5 75.5T273-330l11 19q-12 35-19.5 57.5T257-212q0 34 25.5 59.5T342-127q41 0 67.5-34.5t43-82q16.5-47.5 25.5-96t15-75.5l58 16q-9 43-21 100t-34.5 108.5Q473-139 436.5-103T341-67Zm70-297q-45-40-82-74.5T265.5-506q-26.5-33-41-65T210-639q0-60 42-102t102-42q9 0 17 .5t16 2.5q-9-17-13-29t-4-24q0-46 32-78t78-32q46 0 78 32t32 78q0 11-3.5 23.5T573-780q8-2 16-2.5t17-.5q57 0 96.5 36.5T748-656q-14-1-30-.5t-30 2.5q-5-30-27-49.5T606-723q-37 0-58.5 20.5T490-640h-21q-37-44-58.5-63.5T354-723q-36 0-60 24t-24 60q0 24 13 49t37 53.5q24 28.5 58 60t76 69.5l-43 43ZM618-66q-22 0-43.5-7T533-94q8-12 16-27t13-28q14 11 28.5 16.5T620-127q35 0 59.5-25.5T704-212q0-20-8-42.5T677-311l11-19q46-8 94-23.5t48-75.5q0-44-32-65.5T727-516q-42 0-99.5 16T494-459l-15-58q76-25 137-42t111-17q64 0 113.5 38.5T890-430q0 27-10 53t-28 46q46 1 77 30t31 77q0 45-31 78t-78 33q-31 0-55-14.5T757-168q-16 45-53 73.5T618-66Z"/></svg>
+                    </div>
+                    <h3>Match</h3>
+                    <p>We connect you with local service providers who can meet your specific requirements.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="60px" viewBox="0 -960 960 960" width="60px" fill="#28a745"><path d="M433-228 295-365l42-42 96 94 184-184 42 43-226 226ZM180-80q-24 0-42-18t-18-42v-620q0-24 18-42t42-18h65v-60h65v60h340v-60h65v60h65q24 0 42 18t18 42v620q0 24-18 42t-42 18H180Zm0-60h600v-430H180v430Z"/></svg>
+                    </div>
+                    <h3>Schedule</h3>
+                    <p>Choose the perfect date and time for your services to be delivered.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <footer>
+        <div class="footer-content">
+            <h1>Let's get started</h1>
+            <a href="https://forms.gle/tSJkebzqT6khdcTQA">
+                <button>Join waitlist</button>
+            </a>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#features">How It Works</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 MaiWay. All rights reserved.</p>
+                <p>Made with heart - <a href="https://wa.me/2348119684024">Wailee</a></p>
+            </div>
+            
+        </div>
+    </footer>
+-->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
