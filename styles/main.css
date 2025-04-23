@@ -361,7 +361,7 @@ footer .footer-links a:hover{
 
 footer .social-icons{
     position: absolute;
-    top: 2rem;
+    top: 5rem;
     left: 2rem;
     display: flex;
     flex-direction: column;
